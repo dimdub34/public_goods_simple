@@ -1,0 +1,100 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-18 13:06+0100\n"
+"PO-Revision-Date: 2018-01-10 17:43+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.8.7.1\n"
+
+#: templates/public_goods_simple/Contribute.html:6
+msgid "Decision"
+msgstr "Décision"
+
+#: templates/public_goods_simple/Contribute.html:12
+#, python-format
+msgid ""
+"\n"
+"        You have an endowment of %(endowment)s tokens.\n"
+"        "
+msgstr ""
+"\n"
+"Vous disposez d'une dotation de %(endowment)s jetons."
+
+#: templates/public_goods_simple/Contribute.html:18
+msgid "Please enter the number of tokens you put in the collective account"
+msgstr ""
+"Veuillez saisir le nombre de jetons que vous placez dans le compte collectif"
+
+#: templates/public_goods_simple/End.html:6
+msgid "End of part"
+msgstr "Fin de la partie"
+
+#: templates/public_goods_simple/End.html:12
+msgid "The part is over. Your payoff is equal to "
+msgstr "La partie est terminée. Votre gain pour la partie est de "
+
+#: templates/public_goods_simple/Instructions.html:6
+msgid "Welcome to the LEEM"
+msgstr "Bienvenue au LEEM"
+
+#: templates/public_goods_simple/Instructions.html:12
+msgid "Please read the instructions and then clic on the next button below."
+msgstr ""
+"Merci de lire les instructions. Vous cliquerez sur le bouton \"suivant\" ci-"
+"dessous lorsque vous aurez terminé."
+
+#: templates/public_goods_simple/InstructionsRead.html:8
+msgid ""
+"We are waiting that all participants finish the lecture of the instructions"
+msgstr ""
+"Nous attendons que tous les participants aient fini de lire les instructions."
+
+#: templates/public_goods_simple/Results.html:6
+msgid "Summary"
+msgstr "Récapitulatif"
+
+#: templates/public_goods_simple/Results.html:12
+#, python-format
+msgid ""
+"\n"
+"        You started with an endowment of %(endowment)s tokens.\n"
+"        "
+msgstr ""
+"\n"
+"Vous disposiez d'une dotation de %(endowment)s jetons."
+
+#: templates/public_goods_simple/Results.html:15
+#, python-format
+msgid ""
+"\n"
+"        You put %(contrib)s token(s) in the collective account and your "
+"group put a total of %(contrib_group)s token(s) in this account.\n"
+"        "
+msgstr ""
+"\n"
+"Vous avez placé %(contrib)s jeton(s) dans le compte collectif et au total "
+"votre groupe a placé %(contrib_group)s jeton(s) dans ce compte."
+
+#: templates/public_goods_simple/Results.html:18
+#, python-format
+msgid ""
+"\n"
+"        Your payoff is equal to %(payoff_indiv_acc)s (individual account) + "
+"%(payoff_coll_acc)s (collective account) = %(payoff)s.\n"
+"        "
+msgstr ""
+"\n"
+"Votre gain est égal à %(payoff_indiv_acc)s (compte individuel) + "
+"%(payoff_coll_acc)s (compte collectif) = %(payoff)s."
