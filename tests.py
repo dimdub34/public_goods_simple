@@ -8,8 +8,6 @@ from random import randint
 class PlayerBot(Bot):
 
     def play_round(self):
-        yield (pages.Instructions)
-        yield Submission(pages.InstructionsRead, check_html=False)
         yield (pages.Contribute, {'individual_contribution': randint(0, Constants.endowment)})
         yield (pages.Results)
         yield Submission(pages.End, check_html=False)
