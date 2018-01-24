@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-24 15:12+0100\n"
-"PO-Revision-Date: 2018-01-24 15:13+0100\n"
+"POT-Creation-Date: 2018-01-24 16:10+0100\n"
+"PO-Revision-Date: 2018-01-24 16:11+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -42,24 +42,8 @@ msgid "End of part"
 msgstr "Fin de la partie"
 
 #: templates/public_goods_simple/End.html:12
-msgid "The part is over. Your payoff is equal to "
-msgstr "La partie est terminée. Votre gain pour la partie est de "
-
-#: templates/public_goods_simple/Instructions.html:6
-msgid "Welcome"
-msgstr "Bienvenue"
-
-#: templates/public_goods_simple/Instructions.html:12
-msgid "Please read the instructions and then click on the next button below."
-msgstr ""
-"Merci de lire les instructions. Vous cliquerez sur le bouton \"suivant\" ci-"
-"dessous lorsque vous aurez terminé."
-
-#: templates/public_goods_simple/InstructionsRead.html:8
-msgid ""
-"We are waiting that all participants finish the lecture of the instructions"
-msgstr ""
-"Nous attendons que tous les participants aient fini de lire les instructions."
+msgid "The part is over. Your payoff for this part is equal to "
+msgstr "La partie est terminée. Votre gain pour cette partie est de "
 
 #: templates/public_goods_simple/Results.html:6
 msgid "Summary"
@@ -98,6 +82,22 @@ msgstr ""
 "\n"
 "Votre gain est égal à %(payoff_indiv_acc)s (compte individuel) + "
 "%(payoff_coll_acc)s (compte collectif) = %(payoff)s."
+
+#~ msgid "Welcome"
+#~ msgstr "Bienvenue"
+
+#~ msgid ""
+#~ "Please read the instructions and then click on the next button below."
+#~ msgstr ""
+#~ "Merci de lire les instructions. Vous cliquerez sur le bouton \"suivant\" "
+#~ "ci-dessous lorsque vous aurez terminé."
+
+#~ msgid ""
+#~ "We are waiting that all participants finish the lecture of the "
+#~ "instructions"
+#~ msgstr ""
+#~ "Nous attendons que tous les participants aient fini de lire les "
+#~ "instructions."
 
 #~ msgid "Welcome to the LEEM"
 #~ msgstr "Bienvenue au LEEM"

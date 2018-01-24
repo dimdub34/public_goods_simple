@@ -4,24 +4,17 @@ from ._builtin import Page, WaitPage
 from .models import Constants
 
 
-class Instructions(Page):
-    def is_displayed(self):
-        return self.round_number == 1
-
-
-class InstructionsRead(Page):
-    def is_displayed(self):
-        return self.round_number == 1
-
-
 class Contribute(Page):
     form_model = 'player'
     form_fields = ['individual_contribution']
 
 
 class ResultsWaitPage(WaitPage):
+    wait_for_all_groups = True
+
     def after_all_players_arrive(self):
-        self.group.set_payoffs()
+        for g in self.subsession.get_groups():
+            g.set_payoffs()
 
 
 class Results(Page):
@@ -29,18 +22,8 @@ class Results(Page):
 
 
 class End(Page):
-    def is_displayed(self):
-        return self.round_number == Constants.num_rounds
-
-    # def vars_for_template(self):
-    #     return {"final_payoff": self.participant.payoff_plus_participation_fee()}
+    def vars_for_template(self):
+        return {"subsession_payoff": c(self.participant.vars["public_goods_simple__payoff"]).to_real_world_currency(self.session)}
 
 
-page_sequence = [
-    Instructions,
-    InstructionsRead,
-    Contribute,
-    ResultsWaitPage,
-    Results,
-    End
-]
+page_sequence = [Contribute, ResultsWaitPage, Results, End]
